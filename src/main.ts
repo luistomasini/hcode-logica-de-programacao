@@ -85,7 +85,7 @@ let montadoras = [
 // console.log(montadoras[5][0])
 
 montadoras.forEach((m, index) => {
-    console.log(montadoras[index][0]);
+    //console.log(montadoras[index][0]);
     
     let carros: string = "";
 
@@ -94,6 +94,21 @@ montadoras.forEach((m, index) => {
             carros += modelo + ", "
         }
     })
-    console.log(carros.split(", ").slice(0, -1).join(", "))
-    console.log("---------------------------")
+    //console.log(carros.split(", ").slice(0, -1).join(", "))
+    //console.log("---------------------------")
 })
+
+//---------------------------------------------------------------------------
+// Exercicio vetores Empresa Aérea
+
+let airlineEnterprises: string[] = ['LATAM', 'GOL', 'AZUL', 'QATAR AIRLINES', 'EMIRATES AIRLINE']
+
+airlineEnterprises.forEach((company, index) => 
+    console.log(index, company)
+)
+
+console.log('----------------------------------------- ')
+
+airlineEnterprises.forEach((company, index) => 
+    console.log(index, airlineEnterprises[index])
+)
