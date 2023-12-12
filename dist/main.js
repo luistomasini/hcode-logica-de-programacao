@@ -72,6 +72,11 @@ montadoras.forEach((m, index) => {
 //---------------------------------------------------------------------------
 // Exercicio vetores Empresa Aérea
 let airlineEnterprises = ['LATAM', 'GOL', 'AZUL', 'QATAR AIRLINES', 'EMIRATES AIRLINE'];
-airlineEnterprises.forEach((company, index) => console.log(index, company));
-console.log('----------------------------------------- ');
-airlineEnterprises.forEach((company, index) => console.log(index, airlineEnterprises[index]));
+// airlineEnterprises.forEach((company, index) => 
+//     //console.log(index, company)
+// )
+// //console.log('----------------------------------------- ')
+// airlineEnterprises.forEach((company, index) => 
+//     //console.log(index, airlineEnterprises[index])
+// )
+//---------------------------------------------------------------------------
