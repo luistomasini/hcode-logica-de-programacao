@@ -29,11 +29,11 @@ if (price > 1000) {
 // Operadores Lógicos
 
 if (price > 1000 && price > 0) {
-    console.log("O valor está caro")
+    //console.log("O valor está caro")
 }
 
 if (price > 1000 || price > 0) {
-    console.log("O valor está caro")
+    //console.log("O valor está caro")
 }
 
 if (!price) {
